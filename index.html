@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>流年 - 记住每一次对话，珍藏每一段关系</title>
+    <meta name="description" content="流年是一个长期聊天记忆系统，自动记录所有对话，智能提取关键信息，本地存储保护隐私。">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 首页 Hero Section -->
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav-brand">流年</div>
+            <div class="nav-links">
+                <a href="#features" data-i18n="nav.features">功能</a>
+                <a href="#why" data-i18n="nav.why">为什么</a>
+                <a href="#download" data-i18n="nav.download">下载</a>
+                <a href="#about" data-i18n="nav.about">关于</a>
+                <button class="lang-switch" id="langSwitch">EN</button>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1 class="hero-title">流年</h1>
+            <p class="hero-slogan">记住每一次对话，珍藏每一段关系</p>
+            <p class="hero-desc">
+                流年是一个长期聊天记忆系统，自动记录你的所有对话，<br>
+                智能提取关键信息，让珍贵的记忆永不丢失。
+            </p>
+            <div class="hero-cta">
+                <a href="assets/downloads/流年-v0.1-Mac.zip" class="btn btn-primary" data-i18n="hero.downloadMac">下载 Mac 版</a>
+                <a href="assets/downloads/流年-v0.1-Windows.zip" class="btn btn-primary" data-i18n="hero.downloadWin">下载 Windows 版</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 功能特点 Features -->
+    <section id="features" class="features">
+        <h2 class="section-title">核心功能</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">📝</div>
+                <h3>自动记录</h3>
+                <p>无需手动操作，所有聊天对话自动保存到本地数据库</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3>智能提取</h3>
+                <p>AI 自动识别人名、日期、事件等关键信息</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💾</div>
+                <h3>本地存储</h3>
+                <p>SQLite 本地数据库，数据完全由你掌控</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📤</div>
+                <h3>一键导出</h3>
+                <p>支持 JSON / SQLite / Markdown 多种格式导出</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <h3>隐私保护</h3>
+                <p>本地优先，不上传云端，保护你的隐私安全</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 为什么选择流年 Why Liunian -->
+    <section id="why" class="why">
+        <h2 class="section-title">为什么选择流年？</h2>
+        <div class="comparison">
+            <div class="comparison-card">
+                <h3>✅ 流年</h3>
+                <ul>
+                    <li>本地优先，数据在你手中</li>
+                    <li>隐私保护，不上传云端</li>
+                    <li>极简设计，专注核心功能</li>
+                    <li>开箱即用，无需配置</li>
+                </ul>
+            </div>
+            <div class="comparison-card other">
+                <h3>❌ 其他工具</h3>
+                <ul>
+                    <li>云端存储，数据不在你手中</li>
+                    <li>需要上传，隐私风险</li>
+                    <li>功能复杂，学习成本高</li>
+                    <li>订阅付费，持续成本</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载 Download -->
+    <section id="download" class="download">
+        <h2 class="section-title">立即下载</h2>
+        <p class="download-desc">选择适合你系统的版本，开始记录珍贵的对话</p>
+        <div class="download-buttons">
+            <a href="assets/downloads/流年-v0.1-Mac.zip" class="btn btn-primary btn-large">
+                <span class="btn-icon">🍎</span>
+                <span class="btn-text">
+                    <span class="btn-label">下载 Mac 版</span>
+                    <span class="btn-info">macOS 10.15+</span>
+                </span>
+            </a>
+            <a href="assets/downloads/流年-v0.1-Windows.zip" class="btn btn-primary btn-large">
+                <span class="btn-icon">🪟</span>
+                <span class="btn-text">
+                    <span class="btn-label">下载 Windows 版</span>
+                    <span class="btn-info">Windows 10+</span>
+                </span>
+            </a>
+        </div>
+        <div class="version-info">
+            <p>当前版本：v0.1</p>
+            <p><a href="https://github.com/ksxh-wwrs/liunian/releases" target="_blank">查看更新日志 →</a></p>
+        </div>
+    </section>
+
+    <!-- 关于 About -->
+    <section id="about" class="about">
+        <h2 class="section-title">关于流年</h2>
+        <div class="about-content">
+            <div class="about-story">
+                <h3>为什么做流年？</h3>
+                <p>
+                    在数字化时代，我们每天都在产生大量的对话数据。但大多数聊天工具只保留短期记忆，
+                    重要的对话和珍贵的时刻很容易丢失。
+                </p>
+                <p>
+                    流年希望解决这个问题——它像一个永不遗忘的朋友，帮你记住每一次对话，
+                    珍藏每一段关系。所有数据都在你本地，隐私得到完全保护。
+                </p>
+            </div>
+            <div class="about-contact">
+                <h3 data-i18n="about.contact">联系方式</h3>
+                <div class="contact-links">
+                    <a href="https://x.com/hydra_ksxh" target="_blank" class="contact-link">
+                        <span class="contact-icon">𝕏</span>
+                        <span>X (Twitter)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 Footer -->
+    <footer class="footer">
+        <p>© 2024 流年（Liunian）. 用 ❤️ 制作</p>
+        <p class="footer-links">
+            <a href="https://x.com/hydra_ksxh" target="_blank">X (Twitter)</a>
+        </p>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
