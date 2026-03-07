@@ -42,3 +42,4 @@ liunian-website/
 
 - Twitter: https://x.com/hydra_ksxh
 - GitHub: https://github.com/ksxh-wwrs/liunian
+force rebuild
