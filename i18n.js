@@ -1,6 +1,12 @@
 // 多语言配置
 const i18n = {
     zh: {
+        // 页面标题
+        'page.title': '流年 - 记住每一次对话，珍藏每一段关系',
+        
+        // 品牌
+        'brand': '流年',
+        
         // 导航
         'nav.features': '功能',
         'nav.why': '为什么',
@@ -13,7 +19,7 @@ const i18n = {
         'hero.downloadMac': '下载 Mac 版',
         'hero.downloadWin': '下载 Windows 版',
         
-        // Features
+        // 功能特点
         'features.title': '核心功能',
         'features.autoRecord.title': '自动记录',
         'features.autoRecord.desc': '无需手动操作，所有聊天对话自动保存到本地数据库',
@@ -26,7 +32,7 @@ const i18n = {
         'features.privacy.title': '隐私保护',
         'features.privacy.desc': '本地优先，不上传云端，保护你的隐私安全',
         
-        // Why
+        // 为什么选择流年
         'why.title': '为什么选择流年？',
         'why.liunian': '✅ 流年',
         'why.liunian.local': '本地优先，数据在你手中',
@@ -39,26 +45,32 @@ const i18n = {
         'why.others.complex': '功能复杂，学习成本高',
         'why.others.subscription': '订阅付费，持续成本',
         
-        // Download
+        // 下载
         'download.title': '立即下载',
         'download.desc': '选择适合你系统的版本，开始记录珍贵的对话',
         'download.mac': '下载 Mac 版',
         'download.win': '下载 Windows 版',
         'download.version': '当前版本：v0.1',
-        'download.changelog': '查看更新日志 →',
         
-        // About
+        // 关于
         'about.title': '关于流年',
         'about.why.title': '为什么做流年？',
         'about.why.desc1': '在数字化时代，我们每天都在产生大量的对话数据。但大多数聊天工具只保留短期记忆，重要的对话和珍贵的时刻很容易丢失。',
         'about.why.desc2': '流年希望解决这个问题——它像一个永不遗忘的朋友，帮你记住每一次对话，珍藏每一段关系。所有数据都在你本地，隐私得到完全保护。',
         'about.contact': '联系方式',
         
-        // Footer
+        // 页脚
+        'footer.copyright': '© 2026 流年（Liunian）. 用 ❤️ 制作',
         'footer.madeWith': '用 ❤️ 制作'
     },
     
     en: {
+        // Page Title
+        'page.title': 'Liunian - Remember Every Conversation, Cherish Every Relationship',
+        
+        // Brand
+        'brand': 'Liunian',
+        
         // Navigation
         'nav.features': 'Features',
         'nav.why': 'Why',
@@ -103,7 +115,6 @@ const i18n = {
         'download.mac': 'Download for Mac',
         'download.win': 'Download for Windows',
         'download.version': 'Current Version: v0.1',
-        'download.changelog': 'View Changelog →',
         
         // About
         'about.title': 'About Liunian',
@@ -113,6 +124,7 @@ const i18n = {
         'about.contact': 'Contact',
         
         // Footer
+        'footer.copyright': '© 2026 Liunian. Made with ❤️',
         'footer.madeWith': 'Made with ❤️'
     }
 };
@@ -135,6 +147,7 @@ function toggleLanguage() {
 
 // 更新页面语言
 function updateLanguage() {
+    // 更新所有带 data-i18n 属性的元素
     const elements = document.querySelectorAll('[data-i18n]');
     elements.forEach(el => {
         const key = el.getAttribute('data-i18n');
@@ -142,6 +155,12 @@ function updateLanguage() {
             el.innerHTML = i18n[currentLang][key];
         }
     });
+    
+    // 更新页面标题
+    document.title = i18n[currentLang]['page.title'];
+    
+    // 更新 HTML lang 属性
+    document.documentElement.lang = currentLang === 'zh' ? 'zh-CN' : 'en';
 }
 
 // 初始化
