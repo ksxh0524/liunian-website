@@ -47,7 +47,7 @@ const i18n = {
         // 下载
         'download.title': '立即下载',
         'download.desc': '选择适合你系统的版本，开始记录珍贵的对话',
-        'download.goto': '前往 GitHub 下载',
+        'download.goto': '前往下载',
         'download.version': '当前版本：v0.1',
         
         // 关于
@@ -109,7 +109,7 @@ const i18n = {
         // Download
         'download.title': 'Download Now',
         'download.desc': 'Choose the version for your system and start recording precious conversations',
-        'download.goto': 'Go to GitHub to Download',
+        'download.goto': 'Go to Download',
         'download.version': 'Current Version: v0.1',
         
         // About
