@@ -16,8 +16,7 @@ const i18n = {
         // Hero
         'hero.slogan': '记住每一次对话，珍藏每一段关系',
         'hero.desc': '流年是一个长期聊天记忆系统，自动记录你的所有对话，<br>智能提取关键信息，让珍贵的记忆永不丢失。',
-        'hero.downloadMac': '下载 Mac 版',
-        'hero.downloadWin': '下载 Windows 版',
+        'hero.download': '前往下载',
         
         // 功能特点
         'features.title': '核心功能',
@@ -48,8 +47,7 @@ const i18n = {
         // 下载
         'download.title': '立即下载',
         'download.desc': '选择适合你系统的版本，开始记录珍贵的对话',
-        'download.mac': '下载 Mac 版',
-        'download.win': '下载 Windows 版',
+        'download.goto': '前往 GitHub 下载',
         'download.version': '当前版本：v0.1',
         
         // 关于
@@ -80,8 +78,7 @@ const i18n = {
         // Hero
         'hero.slogan': 'Remember Every Conversation, Cherish Every Relationship',
         'hero.desc': 'Liunian is a long-term chat memory system that automatically records all your conversations,<br>intelligently extracts key information, and keeps precious memories forever.',
-        'hero.downloadMac': 'Download for Mac',
-        'hero.downloadWin': 'Download for Windows',
+        'hero.download': 'Go to Download',
         
         // Features
         'features.title': 'Core Features',
@@ -112,8 +109,7 @@ const i18n = {
         // Download
         'download.title': 'Download Now',
         'download.desc': 'Choose the version for your system and start recording precious conversations',
-        'download.mac': 'Download for Mac',
-        'download.win': 'Download for Windows',
+        'download.goto': 'Go to GitHub to Download',
         'download.version': 'Current Version: v0.1',
         
         // About
